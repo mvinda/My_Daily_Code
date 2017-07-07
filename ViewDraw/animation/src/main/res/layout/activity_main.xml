@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="viewdraw.animation.MainActivity"
+    android:orientation="vertical"
+    >
+
+  <ImageView
+      android:id="@+id/img1"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:background="@mipmap/ic_launcher"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="0dp" />
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="xml方式开始透明动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="代码方式开始透明动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用xml方式开始缩放动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用代码方式开始缩放动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+
+
+  <Button
+      android:id="@+id/button5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用xml方式开始位移动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+
+  <Button
+      android:id="@+id/button6"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用代码方式开始位移动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+
+  <Button
+      android:id="@+id/button7"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用XML方式开始旋转动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+
+  <Button
+      android:id="@+id/button8"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="用代码方式开始旋转动画"
+      tools:layout_editor_absoluteY="0dp"
+      tools:layout_editor_absoluteX="8dp" />
+</LinearLayout>
